@@ -246,6 +246,206 @@
                 opacity: 0.3;
             }
         }
+
+        /* Responsive pour tablette */
+        @media screen and (max-width: 1024px) and (min-width: 769px) {
+            .card {
+                padding: 40px 45px;
+                max-width: 85%;
+            }
+
+            h1 {
+                font-size: 48px;
+            }
+
+            .year {
+                font-size: 75px;
+            }
+
+            .message {
+                font-size: 22px;
+            }
+
+            .signature {
+                font-size: 20px;
+            }
+
+            .bridge-table {
+                width: 85%;
+                height: 65%;
+            }
+
+            .playing-card {
+                width: 50px;
+                height: 75px;
+                padding: 5px;
+            }
+
+            .playing-card .value {
+                font-size: 16px;
+            }
+
+            .playing-card .suit {
+                font-size: 26px;
+            }
+
+            .playing-card .value-bottom {
+                font-size: 16px;
+            }
+        }
+
+        /* Responsive pour mobile et petite tablette */
+        @media screen and (max-width: 768px) {
+            .card {
+                padding: 30px 25px;
+                max-width: 90%;
+            }
+
+            .card::before,
+            .card::after {
+                font-size: 20px;
+            }
+
+            .card::before {
+                top: 5px;
+                left: 10px;
+            }
+
+            .card::after {
+                bottom: 5px;
+                right: 10px;
+            }
+
+            h1 {
+                font-size: 36px;
+                margin-bottom: 10px;
+            }
+
+            .year {
+                font-size: 60px;
+                margin: 10px 0;
+                letter-spacing: 2px;
+            }
+
+            .message {
+                font-size: 18px;
+                line-height: 1.5;
+                margin: 20px 0;
+            }
+
+            .signature {
+                font-size: 16px;
+                margin-top: 20px;
+                padding: 10px;
+            }
+
+            .bridge-table {
+                width: 90%;
+                height: 60%;
+                border: 8px solid #8B4513;
+            }
+
+            .playing-card {
+                width: 45px;
+                height: 68px;
+                padding: 5px;
+                border: 2px solid #333;
+            }
+
+            .playing-card .value {
+                font-size: 14px;
+            }
+
+            .playing-card .suit {
+                font-size: 22px;
+            }
+
+            .playing-card .value-bottom {
+                font-size: 14px;
+            }
+
+            .christmas-ball {
+                width: 35px;
+                height: 35px;
+            }
+
+            .chip {
+                width: 30px;
+                height: 30px;
+                border: 3px solid white;
+            }
+
+            .holly {
+                font-size: 28px;
+            }
+
+            .snowflake {
+                font-size: 0.8em;
+            }
+
+            .symbol-confetti {
+                font-size: 16px;
+            }
+        }
+
+        /* Responsive pour très petits écrans */
+        @media screen and (max-width: 480px) {
+            .card {
+                padding: 20px 15px;
+                border: 3px solid #8B4513;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .year {
+                font-size: 48px;
+            }
+
+            .message {
+                font-size: 16px;
+                margin: 15px 0;
+            }
+
+            .signature {
+                font-size: 14px;
+                padding: 8px;
+            }
+
+            .playing-card {
+                width: 35px;
+                height: 53px;
+                padding: 3px;
+            }
+
+            .playing-card .value {
+                font-size: 11px;
+            }
+
+            .playing-card .suit {
+                font-size: 18px;
+            }
+
+            .playing-card .value-bottom {
+                font-size: 11px;
+            }
+
+            .christmas-ball {
+                width: 25px;
+                height: 25px;
+            }
+
+            .chip {
+                width: 25px;
+                height: 25px;
+                border: 2px solid white;
+            }
+
+            .holly {
+                font-size: 22px;
+            }
+        }
     </style>
 </head>
 <body>
